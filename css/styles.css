@@ -1,0 +1,279 @@
+html, body {
+  height:100%;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: RGB(41, 46, 49);
+}
+
+/*Fonts*/
+
+p{
+	font-size: 16px;
+	color: RGB(112, 124, 130);
+	line-height: 27px;
+}
+
+h3,h4{
+	margin-top: 0;
+}
+
+/* Medias queries */
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.logo{
+		text-align: center;
+	}
+
+	ul.menu{
+		text-align: center;
+	}
+
+	ul.menu li{
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+
+	.v-center{
+		margin: 0!important;
+		text-align: center;
+
+	}
+
+	.v-center .tagline h1{
+		color: RGB(41, 46, 49);
+	}
+
+	.v-center .tagline h2{
+		color: RGB(112, 124, 130);
+	}
+
+	.stores{
+		margin: 30px 0 0 0!important;
+	}
+
+	a.item-store {
+    	margin: 20px 5px!important;
+    	display: block;
+	}
+
+	.ico-feature{
+		text-align: center;
+		margin: 30px 0;
+	}
+
+	.feature{
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	.v-center h2 {
+	    color: RGB(112, 124, 130);
+	    font-size: 24px;
+	    line-height: 32px;
+	}
+}
+
+
+/* Custom container  full */
+
+.cover-home{
+	background: url(../img/jobs-banner-bg.jpg) no-repeat top center;
+	min-height: 600px;
+}
+
+.v-center h1{
+	color: RGB(255, 255, 255);
+	font-size: 48px;
+}
+
+/*devices*/
+
+.devices{
+	margin: 120px 0 0 0;
+}
+
+.v-center{
+	margin: 210px 0 0 0;
+}
+
+.v-center h2{
+	color:RGB(189, 198, 174);
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.stores{
+	margin: 175px 0 0 0;
+	text-align: center;
+}
+
+a.item-store{
+	margin: 0 5px;
+}
+
+.soon{
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+.soon span{
+	font-size: 16px;
+	color: RGB(113, 121, 124);
+}
+
+strong{
+	color: RGB(87, 163, 24);
+}
+
+.centered{
+	margin: 100px auto 100px;
+	text-align: center;
+}
+
+.centered p{
+	margin: 30px auto 0;
+	font-size: 18px;
+	max-width: 650px;
+}
+
+.down{
+	border-top: 1px solid RGB(233, 237, 241);
+	padding-top: 30px;
+}
+/*Features*/
+
+.features{
+	max-width: 960px;
+	margin-bottom: 100px;
+}
+
+.feature{
+	margin-bottom: 50px;
+	padding: 0;
+}
+
+.ico-feature{
+}
+
+/*Custom Btn*/
+
+.custom-btn{
+	background: RGB(54, 138, 0);
+	border: RGB(54, 138, 0);
+	padding: 10px 30px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+	font-size: 16px;
+	margin: 50px 0 0 0;
+}
+
+/*footer*/
+
+.footer{
+	padding: 30px 15px;
+}
+
+img.flag{
+	margin: -3px 5px 0 0;
+}
+
+.footer li{
+	display: inline-block;
+	position: relative;
+	padding-right: 20px;
+}
+
+.footer li a{
+	color: RGB(112, 124, 130);
+	font-size: 15px;
+}
+
+.footer li p{
+	font-size: 15px;
+}
+
+ul.menu{
+	padding: 30px 0 0 0;
+}
+/*AboutUs*/
+
+.aboutUs img{
+	width: 100%;
+}
+
+.about-patagonia{
+	background: url(../img/img-about.jpg) no-repeat;
+	height: 665px;
+	padding: 150px 50px;
+	text-align: center;
+}
+
+.about-patagonia span{
+	font-size: 18px;
+	color: RGB(185, 197, 180);
+}
+
+.about-patagonia h1{
+	margin: 5px 0;
+	font-size: 36px;
+	color: RGB(255, 255, 255);
+}
+
+.about-patagonia p{
+	font-size: 18px;
+	color: RGB(255, 255, 255);
+}
+
+.full{
+	padding: 5px;
+}
+.img-about{
+	padding: 0;
+}
+
+.img-down{
+	margin-top: 10px;
+}
+
+.logo h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: RGB(255, 255, 255);
+
+}
+
+
+.navigation li{
+	display: inline-block;
+	position: relative;
+	padding: 0 20px;
+}
+
+.navigation li a{
+	font-size: 16px;
+	color: RGB(255, 255, 255);
+	padding: 2px 0;
+}
+
+.navigation a:hover {
+    color: RGB(222, 223, 223);
+    text-decoration: none;
+    border-bottom: 1px solid RGB(74, 122, 45);
+    -webkit-transition: all 0.2s ease;
+    strong {
+        color: #222222;
+}
+
+
+
