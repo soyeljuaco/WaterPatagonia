@@ -100,7 +100,7 @@ h3,h4{
 /*devices*/
 
 .devices{
-	margin: 120px 0 0 0;
+	margin: 90px 0 0 0;
 }
 
 .v-center{
@@ -136,7 +136,7 @@ strong{
 }
 
 .centered{
-	margin: 100px auto 100px;
+	margin: 80px auto 80px;
 	text-align: center;
 }
 
@@ -163,6 +163,10 @@ strong{
 }
 
 .ico-feature{
+}
+
+.feature-description{
+	padding: 30px 0 0 0;
 }
 
 /*Custom Btn*/
